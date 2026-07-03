@@ -16,8 +16,7 @@ const services = [
       'Seamless calendar integration',
       'Real-time call analytics & insights',
     ],
-    price: '$5K-$30K',
-    priceLabel: 'Custom',
+    price: 'Custom',
     popular: true,
   },
   {
@@ -31,8 +30,7 @@ const services = [
       'Sentiment analysis & smart escalation',
       'Integration with your existing systems',
     ],
-    price: '$5K-$30K',
-    priceLabel: 'Custom',
+    price: 'Custom',
     popular: false,
   },
   {
@@ -47,7 +45,6 @@ const services = [
       'Team training included',
     ],
     price: '$5K-$30K',
-    priceLabel: 'Starting at',
     popular: false,
   },
 ];
@@ -142,7 +139,7 @@ export default function Services() {
 
               <div className="pt-6 border-t border-violet-500/20">
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-gray-500 text-sm">{service.priceLabel}</span>
+                  <span className="text-gray-500 text-sm">Starting at</span>
                   <span className="text-2xl font-bold text-white">{service.price}</span>
                 </div>
                 <motion.a
