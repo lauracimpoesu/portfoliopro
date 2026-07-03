@@ -33,7 +33,7 @@ const expertiseAreas = [
 
 const achievements = [
   { icon: Award, value: 'PMP', label: 'Certified' },
-  { icon: Users, value: '50+', label: 'Companies' },
+  { icon: Users, value: '30+', label: 'Brands' },
   { icon: Globe, value: '8', label: 'Languages' },
 ];
 

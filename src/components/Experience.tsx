@@ -13,7 +13,7 @@ const experiences = [
     location: 'Remote',
     description: 'Design and development of websites, e-commerce platforms, web applications, mobile apps, and various software solutions for a diverse client base.',
     technologies: ['React', 'Next.js', 'Vue.js', 'TypeScript', 'OpenAI API', 'Tailwind CSS', 'Firebase'],
-    highlights: ['50+ projects delivered', 'International clients', 'AI integrations'],
+    highlights: ['30+ projects delivered', 'International clients', 'AI integrations'],
   },
   {
     title: 'Frontend Engineer',

@@ -5,7 +5,7 @@ import { ArrowRight, Download, Brain, Code, Blocks, Sparkles } from 'lucide-reac
 
 const stats = [
   { value: '7+', label: 'Years Experience' },
-  { value: '50+', label: 'Projects Delivered' },
+  { value: '30+', label: 'Projects Delivered' },
   { value: '8', label: 'Languages Spoken' },
   { value: '500+', label: 'LinkedIn Connections' },
 ];

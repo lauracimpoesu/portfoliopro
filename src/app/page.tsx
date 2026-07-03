@@ -6,6 +6,7 @@ import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Services from '@/components/Services';
 import VAPIDemo from '@/components/VAPIDemo';
+import ChatbotDemo from '@/components/ChatbotDemo';
 import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import Testimonials from '@/components/Testimonials';
@@ -36,6 +37,7 @@ export default function Home() {
         <About />
         <Services />
         <VAPIDemo />
+        <ChatbotDemo />
         <Experience />
         <Projects />
         <Testimonials />
