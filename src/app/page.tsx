@@ -38,8 +38,8 @@ export default function Home() {
         <VAPIDemo />
         <ChatbotDemo />
         <Projects />
-        <Contact />
         <Experience />
+        <Contact />
         <Footer />
       </div>
     </main>
