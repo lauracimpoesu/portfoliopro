@@ -16,7 +16,7 @@ const services = [
       'Seamless calendar integration',
       'Real-time call analytics & insights',
     ],
-    price: 'Custom',
+    price: '$5K-$30K',
     popular: true,
   },
   {
@@ -30,7 +30,7 @@ const services = [
       'Sentiment analysis & smart escalation',
       'Integration with your existing systems',
     ],
-    price: 'Custom',
+    price: '$5K-$30K',
     popular: false,
   },
   {
@@ -44,7 +44,7 @@ const services = [
       'Process automation with AI',
       'Team training included',
     ],
-    price: '$10K-$50K',
+    price: '$5K-$30K',
     popular: false,
   },
 ];

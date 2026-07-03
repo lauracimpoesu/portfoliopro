@@ -4,7 +4,7 @@ import { motion, useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
 import Image from 'next/image';
 
-const categories = ['All', 'Blockchain', 'AI', 'E-Commerce', 'Enterprise', 'Apps'];
+const categories = ['All', 'Blockchain', 'AI', 'E-Commerce', 'Enterprise', 'Non-Profit', 'Apps'];
 
 const projects = [
   {
@@ -57,17 +57,17 @@ const projects = [
     technologies: ['Vue.js', 'Nuxt', 'Shopify', 'Tailwind'],
   },
   {
-    title: 'Traslochi Easy Nello',
+    title: 'Prowork Traslochi',
     category: 'Enterprise',
-    description: 'Home improvement services company specializing in hassle-free relocations.',
-    image: '/projects/ten.png',
+    description: 'Professional moving and construction services with 10+ years of excellence in Piedmont and Italy.',
+    image: '/projects/prowork.png',
     technologies: ['React', 'Next.js', 'Vercel', 'CMS'],
   },
   {
     title: 'Vite Trasformate',
-    category: 'Enterprise',
-    description: 'Non-profit Christian organization spreading the gospel and aiding those in need.',
-    image: '/projects/vite.png',
+    category: 'Non-Profit',
+    description: 'Italian missionary movement bringing hope and transformation, reaching those in need with a message of love and faith.',
+    image: '/projects/vitetrasformate-new.png',
     technologies: ['React', 'Next.js', 'Vercel', 'CMS'],
   },
   {
@@ -91,14 +91,7 @@ const projects = [
     image: '/projects/crypto.png',
     technologies: ['Web3.js', 'Solidity', 'React', 'IPFS'],
   },
-  {
-    title: 'NFT Collection',
-    category: 'Blockchain',
-    description: 'Blockchain platform enabling the creation, trading, and collection of digital art NFTs.',
-    image: '/projects/fox.png',
-    technologies: ['Solidity', 'Web3', 'React', 'IPFS'],
-  },
-  {
+    {
     title: 'To Do List App',
     category: 'Apps',
     description: 'Vibrant task management app designed to boost productivity and organization.',
@@ -119,21 +112,7 @@ const projects = [
     image: '/projects/ecomm.png',
     technologies: ['React', 'Redux', 'Node.js', 'Stripe'],
   },
-  {
-    title: 'Amazon Clone',
-    category: 'E-Commerce',
-    description: 'eCommerce clone mirroring Amazon\'s functionalities and user interface.',
-    image: '/projects/am.png',
-    technologies: ['React', 'Firebase', 'Stripe', 'Redux'],
-  },
-  {
-    title: 'Pinterest Clone',
-    category: 'Apps',
-    description: 'Creative social media app for discovering, saving, and sharing ideas through pins.',
-    image: '/projects/pin.png',
-    technologies: ['React', 'Firebase', 'CSS', 'API'],
-  },
-];
+    ];
 
 export default function Projects() {
   const ref = useRef(null);

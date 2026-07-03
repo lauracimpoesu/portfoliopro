@@ -9,7 +9,6 @@ import VAPIDemo from '@/components/VAPIDemo';
 import ChatbotDemo from '@/components/ChatbotDemo';
 import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
-import Testimonials from '@/components/Testimonials';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -38,10 +37,9 @@ export default function Home() {
         <Services />
         <VAPIDemo />
         <ChatbotDemo />
-        <Experience />
         <Projects />
-        <Testimonials />
         <Contact />
+        <Experience />
         <Footer />
       </div>
     </main>

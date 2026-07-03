@@ -8,7 +8,7 @@ const testimonials = [
   {
     name: 'Nello P.',
     role: 'CEO',
-    company: 'Traslochi Easy Nello',
+    company: 'Prowork Traslochi',
     content: 'Laura transformed our online presence completely. Her technical expertise combined with a deep understanding of our business needs resulted in a website that truly represents our brand. The user experience is seamless and our customers love it.',
     rating: 5,
   },

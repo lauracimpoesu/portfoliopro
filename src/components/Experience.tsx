@@ -6,7 +6,7 @@ import { Briefcase, Calendar, MapPin, ExternalLink } from 'lucide-react';
 
 const experiences = [
   {
-    title: 'Frontend Engineer',
+    title: 'Software Engineer',
     company: 'Freelancer',
     type: 'Freelance',
     period: '2022 - Present',
@@ -16,7 +16,7 @@ const experiences = [
     highlights: ['30+ projects delivered', 'International clients', 'AI integrations'],
   },
   {
-    title: 'Frontend Engineer',
+    title: 'Software Engineer',
     company: 'Mangrovia Blockchain Solutions',
     type: 'Full-time',
     period: 'May 2023 - Aug 2024',
@@ -26,7 +26,7 @@ const experiences = [
     highlights: ['Built Datome platform', 'Blockchain integration', 'Agile/SCRUM processes'],
   },
   {
-    title: 'Frontend Engineer',
+    title: 'Software Engineer',
     company: 'Accenture',
     type: 'Internship',
     period: '2021 - 2022',
@@ -204,11 +204,11 @@ export default function Experience() {
                 <h3 className="text-xl font-bold text-white mb-4">Languages</h3>
                 <div className="glass-card p-5 rounded-xl">
                   <div className="flex flex-wrap gap-2">
-                    {['English', 'Italian', 'French', 'Spanish', 'Romanian', 'Portuguese', 'German', 'Norwegian'].map((lang, index) => (
+                    {['Romanian', 'English', 'Italian', 'Spanish', 'French', 'Portuguese', 'German', 'Norwegian'].map((lang, index) => (
                       <span
                         key={lang}
                         className={`text-sm px-3 py-1 rounded-full ${
-                          index < 2
+                          index < 4
                             ? 'bg-violet-500/20 text-violet-400 border border-violet-500/30'
                             : 'bg-gray-500/10 text-gray-400 border border-gray-500/20'
                         }`}
@@ -217,7 +217,7 @@ export default function Experience() {
                       </span>
                     ))}
                   </div>
-                  <p className="text-xs text-gray-500 mt-3">Native/Bilingual: English, Italian</p>
+                  <p className="text-xs text-gray-500 mt-3">Native: Romanian</p>
                 </div>
               </motion.div>
             </motion.div>

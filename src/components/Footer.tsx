@@ -21,9 +21,9 @@ const footerLinks = {
   ],
   social: [
     { name: 'LinkedIn', icon: Link2, href: 'https://linkedin.com/in/lauracimpoesu' },
-    { name: 'Website', icon: Globe, href: 'https://lauracimpoesu.com' },
+    { name: 'Website', icon: Globe, href: 'https://lauracimpoesu.netlify.app' },
     { name: 'Portfolio', icon: ExternalLink, href: '#projects' },
-    { name: 'Email', icon: Mail, href: 'mailto:lauracsbusiness@gmail.com' },
+    { name: 'Email', icon: Mail, href: 'mailto:thelauraioana@gmail.com' },
   ],
 };
 

@@ -92,7 +92,7 @@ export default function Contact() {
             {/* Contact Methods */}
             <div className="space-y-4">
               <motion.a
-                href="mailto:lauracsbusiness@gmail.com"
+                href="mailto:thelauraioana@gmail.com"
                 className="glass-card p-5 rounded-xl flex items-center gap-4 group"
                 whileHover={{ scale: 1.02 }}
               >
@@ -101,7 +101,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="text-sm text-gray-400">Email</div>
-                  <div className="text-white font-medium">lauracsbusiness@gmail.com</div>
+                  <div className="text-white font-medium">thelauraioana@gmail.com</div>
                 </div>
               </motion.a>
 
