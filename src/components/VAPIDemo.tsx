@@ -23,16 +23,16 @@ export default function VAPIDemo() {
           className="text-center mb-12"
         >
           <span className="text-violet-400 font-semibold text-sm uppercase tracking-wider mb-4 block">
-            Live Demo
+            AI Product Demo
           </span>
           <h2 className="section-heading mb-6">
-            <span className="text-white">Experience My</span>
+            <span className="text-white">See AI</span>
             <br />
-            <span className="gradient-text">AI Voice Agent</span>
+            <span className="gradient-text">In Action</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            Talk to an AI assistant I built using VAPI. Experience natural conversation flow,
-            intelligent responses, and see what AI can do for your business.
+            This voice AI agent demonstrates my ability to build AI-powered product experiences.
+            From LLM integrations to conversational interfaces, I build AI features that work.
           </p>
         </motion.div>
 
@@ -88,17 +88,16 @@ export default function VAPIDemo() {
               <div className="flex-1 text-center lg:text-left">
                 <div className="flex items-center justify-center lg:justify-start gap-2 mb-4">
                   <Sparkles className="w-5 h-5 text-violet-400" />
-                  <span className="text-violet-400 font-semibold">Powered by VAPI</span>
+                  <span className="text-violet-400 font-semibold">Built with VAPI</span>
                 </div>
 
                 <h3 className="text-3xl font-bold text-white mb-4">
-                  Try the AI Agent Now
+                  Try the AI Voice Agent
                 </h3>
 
                 <p className="text-gray-400 mb-6 leading-relaxed">
-                  Click below to start a conversation with my AI voice assistant.
-                  It can answer questions, schedule appointments, and demonstrate
-                  the power of conversational AI for your business.
+                  Experience a live AI voice assistant that can answer questions and demonstrate
+                  natural conversation flow. This is an example of the AI-powered features I build for products.
                 </p>
 
                 {/* Features */}
@@ -117,7 +116,7 @@ export default function VAPIDemo() {
                   </div>
                   <div className="flex items-center gap-2">
                     <Sparkles className="w-4 h-4 text-amber-400" />
-                    <span className="text-sm text-gray-300">24/7 Available</span>
+                    <span className="text-sm text-gray-300">LLM Powered</span>
                   </div>
                 </div>
 
@@ -131,7 +130,7 @@ export default function VAPIDemo() {
                   whileTap={{ scale: 0.95 }}
                 >
                   <Phone className="w-5 h-5" />
-                  Talk to AI Agent
+                  Try the Demo
                   <ArrowRight className="w-5 h-5" />
                 </motion.a>
 
@@ -150,9 +149,9 @@ export default function VAPIDemo() {
           transition={{ delay: 0.6 }}
           className="text-center text-gray-500 text-sm mt-8"
         >
-          Want a custom AI voice agent for your business?{' '}
+          Need AI features built into your product?{' '}
           <a href="#contact" className="text-violet-400 hover:underline">
-            Let&apos;s talk
+            Let&apos;s discuss your project
           </a>
         </motion.p>
       </div>

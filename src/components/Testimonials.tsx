@@ -57,12 +57,12 @@ export default function Testimonials() {
             Testimonials
           </span>
           <h2 className="section-heading mb-6">
-            <span className="text-white">What Clients</span>
+            <span className="text-white">Client</span>
             <br />
-            <span className="gradient-text">Say About Me</span>
+            <span className="gradient-text">Feedback</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            Real feedback from real clients who&apos;ve experienced the impact of working together.
+            Feedback from clients I&apos;ve worked with on web applications, e-commerce platforms, and digital products.
           </p>
         </motion.div>
 

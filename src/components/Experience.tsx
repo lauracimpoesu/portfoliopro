@@ -6,34 +6,52 @@ import { Briefcase, Calendar, MapPin, ExternalLink } from 'lucide-react';
 
 const experiences = [
   {
-    title: 'Software Engineer',
-    company: 'Freelancer',
-    type: 'Freelance',
+    title: 'Senior Software Engineer',
+    company: 'Freelance',
+    type: 'Independent',
     period: '2022 - Present',
-    location: 'Remote',
-    description: 'Design and development of websites, e-commerce platforms, web applications, mobile apps, and various software solutions for a diverse client base.',
-    technologies: ['React', 'Next.js', 'Vue.js', 'TypeScript', 'OpenAI API', 'Tailwind CSS', 'Firebase'],
-    highlights: ['30+ projects delivered', 'International clients', 'AI integrations'],
+    location: 'Remote · Europe / Worldwide',
+    description: 'Built and delivered 30+ production web applications and digital products for international clients across SaaS, e-commerce, Web3, and AI.',
+    technologies: ['React', 'Next.js', 'TypeScript', 'OpenAI API', 'Tailwind CSS', 'Node.js', 'Web3'],
+    highlights: [
+      'React / Next.js application development',
+      'Frontend architecture & technical ownership',
+      'AI integrations & LLM-powered features',
+      'Direct client collaboration',
+      'Production delivery & maintenance',
+    ],
   },
   {
     title: 'Software Engineer',
     company: 'Mangrovia Blockchain Solutions',
     type: 'Full-time',
     period: 'May 2023 - Aug 2024',
-    location: 'Hybrid',
-    description: 'Contributed to the development of Datome — a Platform-as-a-Service (PaaS) offering enhanced, fully integrated solutions for efficient and certified data flow management.',
-    technologies: ['React', 'Next.js', 'Astro', 'Redux', 'TypeScript', 'Mantine UI', 'Storybook'],
-    highlights: ['Built Datome platform', 'Blockchain integration', 'Agile/SCRUM processes'],
+    location: 'Hybrid · Milan',
+    description: 'Core contributor to Datome — a Platform-as-a-Service (PaaS) providing enhanced, fully integrated solutions for certified data flow management on blockchain.',
+    technologies: ['React', 'Next.js', 'TypeScript', 'Redux', 'Mantine UI', 'Storybook', 'Astro'],
+    highlights: [
+      'Datome platform development',
+      'Frontend architecture with React & Next.js',
+      'Component library & design system',
+      'Blockchain integration',
+      'Agile/SCRUM processes',
+    ],
   },
   {
     title: 'Software Engineer',
     company: 'Accenture',
-    type: 'Internship',
+    type: 'Full-time',
     period: '2021 - 2022',
     location: 'Remote',
-    description: 'Maintained a user experience application by fetching, parsing, and formatting data, seamlessly integrating it into React components. Engineered software architecture and object-oriented code.',
-    technologies: ['React', 'Redux-saga', 'JavaScript', 'Bootstrap', 'styled-components', 'SASS'],
-    highlights: ['Fortune 500 experience', 'CRUD operations', 'Enterprise software'],
+    description: 'Developed enterprise software for Enel X, a global energy company. Built and maintained user experience applications handling complex data flows in a Fortune 500 environment.',
+    technologies: ['React', 'Redux-Saga', 'JavaScript', 'Node.js', 'AWS', 'styled-components'],
+    highlights: [
+      'Enterprise software development',
+      'React application architecture',
+      'API integration & data management',
+      'Fortune 500 environment experience',
+      'Collaborative engineering team',
+    ],
   },
 ];
 
@@ -42,13 +60,13 @@ const education = [
     title: 'Front End Development',
     institution: 'EPICODE Institute of Technology',
     year: '2021',
-    description: 'Intensive Coding Bootcamp: Angular, JavaScript, TypeScript, HTML, CSS, SASS, Bootstrap, Node.js',
+    description: 'Intensive Bootcamp: Angular, JavaScript, TypeScript, HTML, CSS, SASS, Bootstrap, Node.js',
   },
   {
     title: 'Full-Stack Engineering',
     institution: 'CodeAcademy',
     year: '2021',
-    description: 'React, Redux, Next.js, JavaScript, HTTP Requests, HTML, CSS, Git, GitHub',
+    description: 'React, Redux, Next.js, JavaScript, HTTP Requests, Git, GitHub',
   },
   {
     title: 'Certified Project Manager (CPM)',
@@ -78,10 +96,10 @@ export default function Experience() {
           <h2 className="section-heading mb-6">
             <span className="text-white">Professional</span>
             <br />
-            <span className="gradient-text">Journey</span>
+            <span className="gradient-text">Background</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            From Fortune 500 companies to blockchain startups, building exceptional digital experiences.
+            From enterprise software at Accenture to blockchain platforms and international freelance clients.
           </p>
         </motion.div>
 
@@ -194,14 +212,14 @@ export default function Experience() {
                 ))}
               </div>
 
-              {/* Languages */}
+              {/* Languages - Made Secondary */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ delay: 0.8 }}
                 className="mt-8"
               >
-                <h3 className="text-xl font-bold text-white mb-4">Languages</h3>
+                <h3 className="text-lg font-semibold text-gray-400 mb-4">Languages</h3>
                 <div className="glass-card p-5 rounded-xl">
                   <div className="flex flex-wrap gap-2">
                     {['Romanian', 'English', 'Italian', 'Spanish', 'French', 'Portuguese', 'German', 'Norwegian'].map((lang, index) => (
@@ -217,7 +235,7 @@ export default function Experience() {
                       </span>
                     ))}
                   </div>
-                  <p className="text-xs text-gray-500 mt-3">Native: Romanian</p>
+                  <p className="text-xs text-gray-500 mt-3">Native: Romanian · Fluent: English, Italian</p>
                 </div>
               </motion.div>
             </motion.div>
