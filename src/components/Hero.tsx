@@ -6,7 +6,7 @@ import { ArrowRight, Eye, Code, Brain, Blocks } from 'lucide-react';
 const stats = [
   { value: '7+', label: 'Years Experience' },
   { value: '30+', label: 'Projects Delivered' },
-  { value: 'International', label: 'Clients' },
+  { value: 'Global', label: 'Clients' },
 ];
 
 const techStack = [
