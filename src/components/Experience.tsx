@@ -222,7 +222,7 @@ export default function Experience() {
                 <h3 className="text-lg font-semibold text-gray-400 mb-4">Languages</h3>
                 <div className="glass-card p-5 rounded-xl">
                   <div className="flex flex-wrap gap-2">
-                    {['Romanian', 'English', 'Italian', 'Spanish', 'French', 'Portuguese', 'German', 'Norwegian'].map((lang, index) => (
+                    {['English', 'Italian', 'Spanish', 'Romanian', 'French', 'Portuguese', 'German', 'Norwegian'].map((lang, index) => (
                       <span
                         key={lang}
                         className={`text-sm px-3 py-1 rounded-full ${
@@ -235,7 +235,7 @@ export default function Experience() {
                       </span>
                     ))}
                   </div>
-                  <p className="text-xs text-gray-500 mt-3">Native: Romanian · Fluent: English, Italian</p>
+                  <p className="text-xs text-gray-500 mt-3">Fluent: English, Italian, Spanish · Native: Romanian</p>
                 </div>
               </motion.div>
             </motion.div>
