@@ -2,38 +2,38 @@
 
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { Code2, Brain, Blocks, Globe, Award, Users } from 'lucide-react';
+import { Code2, Brain, Blocks, Globe, Briefcase, Users } from 'lucide-react';
 
 const expertiseAreas = [
   {
-    icon: Brain,
-    title: 'AI & Machine Learning',
-    description: 'LangChain, OpenAI, Claude API, RAG Systems, Fine-tuning, LlamaIndex',
-    color: 'violet',
+    icon: Code2,
+    title: 'Frontend & Product Engineering',
+    description: 'React, Next.js, TypeScript, Vue, Nuxt, Tailwind CSS, Design Systems',
+    color: 'cyan',
   },
   {
-    icon: Code2,
-    title: 'FullStack Development',
-    description: 'React, Next.js, Vue, Nuxt, TypeScript, Node.js, Python, FastAPI',
-    color: 'cyan',
+    icon: Brain,
+    title: 'AI Product Development',
+    description: 'OpenAI, LangChain, RAG Systems, LLM APIs, AI-powered features',
+    color: 'violet',
   },
   {
     icon: Blocks,
     title: 'Blockchain & Web3',
-    description: 'Solidity, Web3.js, Smart Contracts, Ethereum, NFTs, DeFi',
+    description: 'Solidity, Web3.js, Smart Contracts, Ethereum, DeFi applications',
     color: 'emerald',
   },
   {
     icon: Globe,
-    title: 'Global Reach',
-    description: '8 languages spoken, serving clients worldwide with cultural fluency',
+    title: 'International Experience',
+    description: '8 languages, remote collaboration, working with global teams',
     color: 'amber',
   },
 ];
 
 const achievements = [
-  { icon: Award, value: 'PMP', label: 'Certified' },
-  { icon: Users, value: '30+', label: 'Brands' },
+  { icon: Briefcase, value: '7+', label: 'Years' },
+  { icon: Users, value: '30+', label: 'Projects' },
   { icon: Globe, value: '8', label: 'Languages' },
 ];
 
@@ -55,12 +55,12 @@ export default function About() {
             About Me
           </span>
           <h2 className="section-heading mb-6">
-            <span className="text-white">Not Your Typical</span>
+            <span className="text-white">Senior Engineer.</span>
             <br />
-            <span className="gradient-text">AI Consultant</span>
+            <span className="gradient-text">Product Thinker. AI Builder.</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            I combine deep technical expertise with business strategy to deliver AI solutions that actually work.
+            I don&apos;t just implement tickets. I help teams turn ideas and technical requirements into reliable products.
           </p>
         </motion.div>
 
@@ -75,24 +75,26 @@ export default function About() {
             <div className="glass-card p-8 rounded-2xl relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-violet-500/20 to-transparent rounded-bl-full" />
 
-              <h3 className="text-2xl font-bold mb-6 text-white">My Journey</h3>
+              <h3 className="text-2xl font-bold mb-6 text-white">Background</h3>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
-                  For the past <span className="text-violet-400 font-semibold">7+ years</span>,
-                  I&apos;ve been immersed in fullstack development, blockchain & AI helping
-                  companies grow and thrive.
+                  With <span className="text-violet-400 font-semibold">7+ years</span> of software engineering experience,
+                  I specialize in frontend and product engineering with{' '}
+                  <span className="text-cyan-400 font-semibold">React, Next.js, and TypeScript</span>.
                 </p>
                 <p>
-                  I built many software applications and websites, from local businesses to
-                  <span className="text-cyan-400 font-semibold"> international brands</span> like
-                  Accenture and Mangrovia Blockchain Solutions.
+                  I&apos;ve worked with <span className="text-violet-400 font-semibold">Accenture</span> on enterprise software
+                  and <span className="text-emerald-400 font-semibold">Mangrovia Blockchain Solutions</span> building
+                  their Datome platform, along with 30+ projects for international clients.
                 </p>
                 <p>
-                  My unique combination of <span className="text-emerald-400 font-semibold">FullStack + AI + Web3</span> expertise
-                  means I deliver complete solutions, not just pieces of the puzzle.
+                  My combination of <span className="text-cyan-400 font-semibold">product engineering</span>,{' '}
+                  <span className="text-violet-400 font-semibold">AI</span>, and{' '}
+                  <span className="text-emerald-400 font-semibold">Web3</span> expertise means I can take ownership
+                  of complex technical challenges and deliver complete solutions.
                 </p>
-                <p className="text-violet-400 font-semibold italic">
-                  Let&apos;s build something exceptional together.
+                <p className="text-gray-400 italic border-l-2 border-violet-500/50 pl-4">
+                  I work directly with founders and CTOs to build the products they envision.
                 </p>
               </div>
 
@@ -143,12 +145,12 @@ export default function About() {
           className="mt-20 overflow-hidden"
         >
           <div className="flex gap-8 animate-marquee">
-            {['React', 'Next.js', 'Vue', 'TypeScript', 'Python', 'Node.js', 'OpenAI', 'LangChain', 'Web3', 'Solidity', 'Docker', 'AWS', 'Vercel', 'TailwindCSS'].map((tech) => (
+            {['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Python', 'OpenAI', 'LangChain', 'Web3.js', 'Solidity', 'Docker', 'AWS', 'Vercel', 'FastAPI'].map((tech) => (
               <span key={tech} className="text-gray-500 font-mono text-sm whitespace-nowrap px-4 py-2 glass rounded-full">
                 {tech}
               </span>
             ))}
-            {['React', 'Next.js', 'Vue', 'TypeScript', 'Python', 'Node.js', 'OpenAI', 'LangChain', 'Web3', 'Solidity', 'Docker', 'AWS', 'Vercel', 'TailwindCSS'].map((tech) => (
+            {['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Python', 'OpenAI', 'LangChain', 'Web3.js', 'Solidity', 'Docker', 'AWS', 'Vercel', 'FastAPI'].map((tech) => (
               <span key={`${tech}-2`} className="text-gray-500 font-mono text-sm whitespace-nowrap px-4 py-2 glass rounded-full">
                 {tech}
               </span>

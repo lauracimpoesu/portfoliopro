@@ -2,7 +2,7 @@
 
 import { motion, useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
-import { Send, Mail, Calendar, MapPin, Link2, ArrowRight, Sparkles, CheckCircle2 } from 'lucide-react';
+import { Send, Mail, Calendar, MapPin, Link2, ArrowRight, CheckCircle2 } from 'lucide-react';
 
 export default function Contact() {
   const ref = useRef(null);
@@ -36,12 +36,13 @@ export default function Contact() {
             Get In Touch
           </span>
           <h2 className="section-heading mb-6">
-            <span className="text-white">Let&apos;s Build</span>
+            <span className="text-white">Have a Product</span>
             <br />
-            <span className="gradient-text">Something Amazing</span>
+            <span className="gradient-text">to Build?</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            Ready to transform your business with AI? Let&apos;s discuss your project and explore how I can help.
+            Whether you&apos;re scaling an existing application, building a new product, or adding AI capabilities,
+            let&apos;s discuss what you&apos;re working on.
           </p>
         </motion.div>
 
@@ -56,17 +57,16 @@ export default function Contact() {
             <div className="glass-card p-8 rounded-2xl mb-8 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-violet-500/20 to-transparent rounded-bl-full" />
 
-              <Sparkles className="w-12 h-12 text-violet-400 mb-6" />
-              <h3 className="text-2xl font-bold text-white mb-4">Free AI Assessment</h3>
+              <Calendar className="w-12 h-12 text-violet-400 mb-6" />
+              <h3 className="text-2xl font-bold text-white mb-4">Book a Discovery Call</h3>
               <p className="text-gray-400 mb-6 leading-relaxed">
-                Not sure where to start? Book a free 30-minute consultation where we&apos;ll:
+                Schedule a 30-minute call to discuss your project, technical requirements, and how I can help.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
-                  'Evaluate your current processes',
-                  'Identify AI opportunities',
-                  'Provide actionable recommendations',
-                  'No strings attached',
+                  'Discuss your product and goals',
+                  'Understand your technical needs',
+                  'Explore potential collaboration',
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-gray-300">
                     <CheckCircle2 className="w-5 h-5 text-emerald-400 flex-shrink-0" />
@@ -84,7 +84,7 @@ export default function Contact() {
                 whileTap={{ scale: 0.98 }}
               >
                 <Calendar className="w-5 h-5" />
-                Book Free Consultation
+                Book a Discovery Call
                 <ArrowRight className="w-4 h-4" />
               </motion.a>
             </div>
@@ -127,7 +127,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="text-sm text-gray-400">Location</div>
-                  <div className="text-white font-medium">Italy | Remote Worldwide</div>
+                  <div className="text-white font-medium">Remote · Europe / Worldwide</div>
                 </div>
               </div>
             </div>

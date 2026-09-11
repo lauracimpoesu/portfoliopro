@@ -5,10 +5,11 @@ import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Services from '@/components/Services';
-import VAPIDemo from '@/components/VAPIDemo';
-import ChatbotDemo from '@/components/ChatbotDemo';
-import Experience from '@/components/Experience';
+import HowIWork from '@/components/HowIWork';
 import Projects from '@/components/Projects';
+import Experience from '@/components/Experience';
+import VAPIDemo from '@/components/VAPIDemo';
+import Testimonials from '@/components/Testimonials';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -35,10 +36,11 @@ export default function Home() {
         <Hero />
         <About />
         <Services />
-        <VAPIDemo />
-        <ChatbotDemo />
+        <HowIWork />
         <Projects />
         <Experience />
+        <VAPIDemo />
+        <Testimonials />
         <Contact />
         <Footer />
       </div>

@@ -7,9 +7,8 @@ import { Menu, X, Sparkles } from 'lucide-react';
 const navItems = [
   { name: 'About', href: '#about' },
   { name: 'Services', href: '#services' },
+  { name: 'Work', href: '#projects' },
   { name: 'Experience', href: '#experience' },
-  { name: 'Projects', href: '#projects' },
-  { name: 'Testimonials', href: '#testimonials' },
   { name: 'Contact', href: '#contact' },
 ];
 
@@ -70,7 +69,7 @@ export default function Navigation() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Let&apos;s Talk
+              Let&apos;s Work Together
             </motion.a>
           </div>
 
@@ -120,7 +119,7 @@ export default function Navigation() {
                 transition={{ delay: 0.6 }}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Let&apos;s Talk
+                Let&apos;s Work Together
               </motion.a>
             </div>
           </motion.div>

@@ -1,19 +1,26 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowRight, Download, Brain, Code, Blocks, Sparkles } from 'lucide-react';
+import { ArrowRight, Eye, Code, Brain, Blocks } from 'lucide-react';
 
 const stats = [
   { value: '7+', label: 'Years Experience' },
   { value: '30+', label: 'Projects Delivered' },
-  { value: '8', label: 'Languages Spoken' },
-  { value: '500+', label: 'LinkedIn Connections' },
+  { value: 'International', label: 'Clients' },
+];
+
+const techStack = [
+  'React',
+  'Next.js',
+  'TypeScript',
+  'AI',
+  'Web3',
 ];
 
 const badges = [
-  { icon: Brain, label: 'AI Engineer' },
-  { icon: Code, label: 'FullStack Dev' },
-  { icon: Blocks, label: 'Web3 Pioneer' },
+  { icon: Code, label: 'Product Engineer' },
+  { icon: Brain, label: 'AI Builder' },
+  { icon: Blocks, label: 'Web3 Expert' },
 ];
 
 export default function Hero() {
@@ -43,7 +50,8 @@ export default function Hero() {
             className="text-5xl md:text-7xl lg:text-8xl font-black leading-none tracking-tight mb-6"
           >
             <span className="block text-white">Laura Cimpoesu</span>
-            <span className="gradient-text block mt-2">AI Solutions Architect</span>
+            <span className="gradient-text block mt-2 text-3xl md:text-5xl lg:text-6xl">Senior Software Engineer</span>
+            <span className="gradient-text block text-3xl md:text-5xl lg:text-6xl">&amp; AI Product Engineer</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -51,14 +59,24 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-8 leading-relaxed"
+            className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-6 leading-relaxed"
           >
-            Software Engineer & AI Consultant building exceptional digital experiences.
-            Transforming businesses with{' '}
-            <span className="text-violet-400 font-semibold">AI</span>,{' '}
-            <span className="text-cyan-400 font-semibold">FullStack</span>, and{' '}
-            <span className="text-emerald-400 font-semibold">Web3</span> solutions.
+            I build production-ready web and AI products with React, Next.js and modern AI technologies.
           </motion.p>
+
+          {/* Tech Stack Line */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.45 }}
+            className="flex flex-wrap justify-center gap-2 mb-8"
+          >
+            {techStack.map((tech, index) => (
+              <span key={tech} className="text-sm text-gray-500 font-mono">
+                {tech}{index < techStack.length - 1 && <span className="mx-2 text-violet-500">/</span>}
+              </span>
+            ))}
+          </motion.div>
 
           {/* Expertise Badges */}
           <motion.div
@@ -94,8 +112,7 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Sparkles className="w-5 h-5" />
-              Book Free Consultation
+              Let&apos;s Work Together
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </motion.a>
             <motion.a
@@ -104,8 +121,8 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Download className="w-4 h-4" />
-              View Portfolio
+              <Eye className="w-4 h-4" />
+              View My Work
             </motion.a>
           </motion.div>
 
@@ -114,7 +131,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
-            className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto"
+            className="grid grid-cols-3 gap-8 max-w-2xl mx-auto"
           >
             {stats.map((stat, index) => (
               <motion.div

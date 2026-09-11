@@ -7,17 +7,16 @@ const footerLinks = {
   navigation: [
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
+    { name: 'Work', href: '#projects' },
     { name: 'Experience', href: '#experience' },
-    { name: 'Projects', href: '#projects' },
     { name: 'Testimonials', href: '#testimonials' },
     { name: 'Contact', href: '#contact' },
   ],
   services: [
-    { name: 'AI Consulting', href: '#services' },
-    { name: 'Voice AI Agents', href: '#services' },
-    { name: 'Chatbot Systems', href: '#services' },
-    { name: 'Web Development', href: '#services' },
-    { name: 'Blockchain Solutions', href: '#services' },
+    { name: 'Product Engineering', href: '#services' },
+    { name: 'AI Product Development', href: '#services' },
+    { name: 'Technical Consulting', href: '#services' },
+    { name: 'Fractional Engineering', href: '#services' },
   ],
   social: [
     { name: 'LinkedIn', icon: Link2, href: 'https://linkedin.com/in/lauracimpoesu' },
@@ -50,8 +49,8 @@ export default function Footer() {
               <span className="gradient-text">Laura Cimpoesu</span>
             </motion.a>
             <p className="text-gray-400 mb-6 max-w-md leading-relaxed">
-              Software Engineer & AI Consultant with 7+ years of experience building
-              exceptional digital experiences. Let&apos;s transform your business together.
+              Senior Software Engineer specializing in React, Next.js, and AI product development.
+              Building production-ready applications for international clients.
             </p>
             {/* Social Links */}
             <div className="flex gap-4">
@@ -113,12 +112,7 @@ export default function Footer() {
           </p>
 
           <div className="flex items-center gap-6">
-            <a href="#" className="text-gray-500 hover:text-gray-300 text-sm transition-colors">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-gray-500 hover:text-gray-300 text-sm transition-colors">
-              Terms of Service
-            </a>
+            <span className="text-gray-500 text-sm">Remote · Europe / Worldwide</span>
           </div>
 
           {/* Scroll to Top */}
@@ -135,7 +129,7 @@ export default function Footer() {
         {/* Made with */}
         <div className="text-center mt-8">
           <p className="text-gray-600 text-xs">
-            Built with Next.js, Three.js, Framer Motion & Tailwind CSS
+            Built with Next.js, React, TypeScript, Tailwind CSS & Framer Motion
           </p>
         </div>
       </div>
